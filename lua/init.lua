@@ -177,6 +177,8 @@ require("configs.bufferline")
 require("configs.transparent")
 require("configs.crates")
 require("configs.theme")
+require("configs.indent_blankline")
+
 
 ---------------------------------------
 --              Keymaps              --

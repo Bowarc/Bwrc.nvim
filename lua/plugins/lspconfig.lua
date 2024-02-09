@@ -22,7 +22,7 @@ return {
   'williamboman/mason-lspconfig.nvim',
 
 
-  { 'j-hui/fidget.nvim', opts = {} },
+  -- { 'j-hui/fidget.nvim', opts = {} },
   'folke/neodev.nvim',
   'simrat39/rust-tools.nvim'
 }
