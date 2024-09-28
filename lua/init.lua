@@ -65,13 +65,13 @@ require('lazy').setup({
   -- Adds git releated signs to the gutter, as well as utilities for managing changes
   require 'plugins.gitsigns',
 
-  require 'plugins.theme',
+  require 'plugins.indent_blankline',
 
   -- Set lualine as statusline
   require 'plugins.lualine',
 
   -- Add indentation guides even on blank lines
-  require 'plugins.indent_blankline',
+  require 'plugins.theme',
 
   -- "gc" to comment visual regions/lines
   require 'plugins.comment',
