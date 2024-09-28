@@ -46,16 +46,16 @@ require('lazy').setup({
 
   -- Detect tabstop and shiftwidth automatically
   'tpope/vim-sleuth',
-  
+
   -- LSP Configuration & Plugins
-  require 'plugins.lspconfig', 
+  require 'plugins.lspconfig',
 
   -- Autocompletion
   require 'plugins.cmp',
-  
+
   -- close {, (, ", ', when opening them
   require 'plugins.auto_pairs',
-  
+
   -- rust Cargo toml crate addons
   require 'plugins.crates',
 
@@ -66,7 +66,7 @@ require('lazy').setup({
   require 'plugins.gitsigns',
 
   require 'plugins.theme',
-  
+
   -- Set lualine as statusline
   require 'plugins.lualine',
 
@@ -163,6 +163,8 @@ vim.o.completeopt = 'menuone,noselect'
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
 
+-- relative line numbers
+vim.wo.relativenumber = true
 ---------------------------------------
 --              Configs              -- (allow pluggins to modify vim vars ?)
 ---------------------------------------
